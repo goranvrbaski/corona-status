@@ -1,0 +1,7 @@
+#!/bin/sh
+
+[ -z "$1" ] && COUNTRY=serbia || COUNTRY=$1
+
+
+echo "Corona status for $COUNTRY" && \
+curl -s https://corona-stats.online/ | grep -i "$COUNTRY" | sed -e 's/ //g ; s/│/;/g ; s/║//g' | awk -F';' '{print "😷 " $3 "\n" "💀 " $5}'
