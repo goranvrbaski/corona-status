@@ -4,4 +4,4 @@
 
 
 echo "Corona status for $COUNTRY" && \
-curl -s https://corona-stats.online/ | grep -i "$COUNTRY" | sed -e 's/ //g ; s/│/;/g ; s/║//g' | awk -F';' '{print "😷 " $3 "\n" "💀 " $5}'
+curl -s https://corona-stats.online/ | grep -i "$COUNTRY" | sed -e 's/ //g ; s/│/;/g ; s/║//g' | awk -F';' '{print "😷 " $3 "\n" "💀 " $5 "\n" "💊 " $7}'

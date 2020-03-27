@@ -5,7 +5,8 @@ This tool will scrape https://corona-stats.online/ and search the site for a phr
 ### Legend
 
 😷 - indicates the number of known infected people  
-💀 - indicates the number of known deaths
+💀 - indicates the number of known deaths  
+💊 - indicates the number of recovered people
 
 ### Tested and proven to work on 
 | OS  | Status |
@@ -33,4 +34,5 @@ corona USA
 Corona status for USA
 😷 85,377
 💀 1,295
+💊 1,868
 ```
