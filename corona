@@ -1,6 +1,6 @@
 #!/bin/sh
 
-[ -z "$1" ] && COUNTRY=serbia || COUNTRY=$1
+[ -z "$1" ] && COUNTRY=Serbia || COUNTRY=$1
 
 
 echo "Corona status for $COUNTRY" && \
