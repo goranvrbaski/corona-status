@@ -36,3 +36,14 @@ Corona status for USA
 💀 1,295
 💊 1,868
 ```
+
+e.g.
+
+```bash
+corona Italy
+
+Corona status for Italy
+😷 80,589
+💀 8,215
+💊 10,361
+```
