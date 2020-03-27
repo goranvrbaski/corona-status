@@ -7,6 +7,14 @@ This tool will scrape https://corona-stats.online/ and search the site for a phr
 😷 - indicates the number of known infected people  
 💀 - indicates the number of known deaths
 
+### Tested and proven to work on 
+| OS  | Status |
+| :---         |     :---:      | 
+| Arch Linux  | ✅ |
+| Manjaro Linux  | ✅ |
+| Ubuntu 18.04  | ✅ |
+| macOS Catalina | ✅ |
+
 ### How to use
 
 - clone repository or `wget https://raw.githubusercontent.com/goranvrbaski/corona-status/master/corona`
