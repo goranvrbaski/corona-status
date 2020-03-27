@@ -13,8 +13,14 @@ This tool will scrape https://corona-stats.online/ and search the site for a phr
 - make `corona` file executable (chmod +x corona)
 - run corona
 
+#### Optional
+You can move the `corona` file to `/usr/local/bin/` so you can invoke script from anywhere in your terminal. 
+
+e.g. `cp corona /usr/local/bin/corona`
+
+
 ```bash
-./corona USA
+corona USA
 
 Corona status for USA
 😷 85,377
