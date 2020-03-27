@@ -9,7 +9,8 @@ This tool will scrape https://corona-stats.online/ and search the site for a phr
 
 ### How to use
 
-- clone repository
+- clone repository or `wget https://raw.githubusercontent.com/goranvrbaski/corona-status/master/corona`
+- make corona file executable (chmod +x corona)
 - run corona
 
 ```bash
